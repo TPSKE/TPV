@@ -1,0 +1,12 @@
+#ifndef IDPHISTORIAN_GLOBAL_H
+#define IDPHISTORIAN_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(IDPHISTORIAN_LIBRARY)
+#define IDPHISTORIAN_EXPORT Q_DECL_EXPORT
+#else
+#define IDPHISTORIAN_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // IDPHISTORIAN_GLOBAL_H

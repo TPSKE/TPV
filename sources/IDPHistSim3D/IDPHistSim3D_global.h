@@ -1,0 +1,12 @@
+#ifndef IDPHISTSIM3D_GLOBAL_H
+#define IDPHISTSIM3D_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(IDPHISTSIM3D_LIBRARY)
+#define IDPHISTSIM3D_EXPORT Q_DECL_EXPORT
+#else
+#define IDPHISTSIM3D_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // IDPHISTSIM3D_GLOBAL_H
