@@ -1,0 +1,7 @@
+<document name="IDP config">
+	<IDP alias="RealTimeFncs" dllpath="../../IDPRealTimeSim/" dllname="IDPRealTimeSim"></IDP>
+	<IDP alias="SimFncs" dllpath="../../IDPSimulationFunctions/" dllname="IDPSimulationFunctions"></IDP>
+	<IDP alias="3DHistSim" dllpath="../../IDPHistSim3D/" dllname="IDPHistSim3D"></IDP>
+	<!--<IDP alias="InSQLclient" dllpath="../../IDPHistorian/" dllname="IDPHistorian">
+	<IDP alias="InSQLclientADODB" dllpath="../../IDPHistorianADODB/" dllname="IDPHistorianADODB">-->
+</document>
